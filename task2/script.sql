@@ -1,4 +1,6 @@
 create database example;
+create database sample;
+
 
 use example;
 create table users
@@ -9,6 +11,9 @@ name varchar(20) not null
 
 insert into users(name) values('pas');
 commit;
+
+
+
  
 use sys
 
